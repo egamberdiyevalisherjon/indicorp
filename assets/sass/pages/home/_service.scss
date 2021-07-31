@@ -1,0 +1,62 @@
+section#services {
+  padding: 10rem 0;
+  background-color: #fff;
+
+  .title {
+    font-size: 3rem;
+    color: map-get($map: $colors, $key: primary);
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    color: map-get($map: $colors, $key: muted);
+  }
+
+  .half:nth-child(2) {
+    padding-left: 2em;
+  }
+
+  .card {
+    box-shadow: 0 5px 15px darken(#fff, 10);
+    padding: 2em;
+    background-color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+
+    &:hover {
+      box-shadow: 0 5px 20px darken(#fff, 15);
+    }
+
+    .card-img-wraper {
+      height: 150px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  ul {
+    li {
+      margin-bottom: 1em;
+
+      .threeoffourth {
+        margin-left: 1em;
+      }
+    }
+
+    h3 {
+      font-size: 1.3em;
+      letter-spacing: 1px;
+      margin-bottom: 0.5em;
+      color: map-get($map: $colors, $key: primary);
+    }
+    p {
+      color: map-get($map: $colors, $key: muted);
+      margin: 0;
+    }
+  }
+}

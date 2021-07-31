@@ -1,0 +1,28 @@
+.half,
+.athird,
+.twoofthird,
+.aquater,
+.threeoffourth {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.half {
+  width: 49%;
+}
+
+.athird {
+  width: 33%;
+}
+
+.twoofthird {
+  width: 66%;
+}
+
+.aquater {
+  width: 24%;
+}
+
+.threeoffourth {
+  width: 74%;
+}

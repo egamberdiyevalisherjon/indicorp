@@ -1,0 +1,20 @@
+section#showcase {
+  height: 90vh;
+  min-height: 800px;
+  background: url(../images/Showcase.png) no-repeat top center / cover;
+  padding: 25vh 0;
+
+  .title {
+    font-size: 4.8rem;
+    color: map-get($map: $colors, $key: primary);
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    color: map-get($map: $colors, $key: muted);
+  }
+}

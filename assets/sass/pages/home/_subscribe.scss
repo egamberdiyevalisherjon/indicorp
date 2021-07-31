@@ -1,0 +1,31 @@
+section#subscribe {
+  margin-top: 6rem;
+  background-color: map-get($map: $colors, $key: primary);
+  color: #fff;
+
+  .box {
+    font-size: 2rem;
+    background-color: map-get($map: $colors, $key: dark-info);
+    padding: 1em 1.5em;
+    position: relative;
+    top: -4rem;
+  }
+
+  form {
+    position: relative;
+  }
+
+  input {
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  button {
+    position: absolute;
+    right: 0;
+    top: 1px;
+  }
+}

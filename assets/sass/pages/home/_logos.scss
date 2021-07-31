@@ -1,0 +1,11 @@
+section#logos {
+  padding: 3rem;
+
+  img {
+    width: 7%;
+
+    &:not(:first-child) {
+      margin-left: 11%;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+/* main-header */
+#main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1em 0;
+  z-index: 9999;
+  background-color: rgba($color: #fff, $alpha: 0.3);
+
+  .logo {
+    font: {
+      size: 2rem;
+      weight: 800;
+    }
+    color: map-get($map: $colors, $key: primary);
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #main-navbar {
+    display: inline-block;
+    vertical-align: middle;
+    color: map-get($map: $colors, $key: muted);
+    margin-left: 5rem;
+
+    & > ul > li {
+      vertical-align: middle;
+      display: inline-block;
+      padding: 0.4em 1.2em;
+    }
+  }
+
+  .right {
+    padding: 1rem 0;
+
+    input[type="checkbox"] {
+      display: none;
+    }
+  }
+}
+/* main-header end */

@@ -1,0 +1,39 @@
+section#cards {
+  position: relative;
+  top: -150px;
+
+  .athird {
+    padding: 0 1rem;
+  }
+
+  .card {
+    box-shadow: 0 5px 15px darken(#fff, 10);
+    padding: 3em;
+    background-color: #fff;
+
+    &:hover {
+      box-shadow: 0 5px 20px darken(#fff, 15);
+    }
+
+    .card-img-wraper {
+      height: 75px;
+    }
+
+    h4 {
+      color: map-get($map: $colors, $key: primary);
+      font-size: 1.5rem;
+      margin-bottom: 1em;
+    }
+
+    p {
+      color: map-get($map: $colors, $key: muted);
+    }
+  }
+
+  .athird:last-child .card {
+    background-color: map-get($map: $colors, $key: info);
+    * {
+      color: #fff;
+    }
+  }
+}
